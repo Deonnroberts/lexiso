@@ -60,7 +60,7 @@ Commercial licenses are available from Licensor and may include rights to:
 - redistribution;
 - support, warranties, or indemnification.
 
-Contact: licensing@lexiso.app
+Contact: lexisoapp@gmail.com
 
 ----------------------------------------------------------------------
 5. CONTRIBUTIONS
