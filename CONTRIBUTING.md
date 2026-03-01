@@ -25,4 +25,4 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ## Questions?
 
-Open an issue or email hello@lexiso.app
+Open an issue or email lexisoapp@gmail.com
