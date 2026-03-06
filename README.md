@@ -12,7 +12,7 @@ This repository contains the open-core of Lexiso under the Lexiso Source-Availab
 
 ---
 
-## **Quick Start
+## Quick Start
 
 ```
 npm install lexiso
