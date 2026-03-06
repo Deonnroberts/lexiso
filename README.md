@@ -12,6 +12,13 @@ This repository contains the open-core of Lexiso under the Lexiso Source-Availab
 
 ---
 
+## **Quick Start
+
+```
+npm install lexiso
+````
+---
+
 ## **The Problem**
 
 Autonomous AI agents are increasingly capable of taking financial actions:
@@ -154,7 +161,6 @@ Planned evolution includes:
 - Dashboard UI for policy management
 - Self-service API key generation
 - Enhanced audit exports
-- SluiceGate integration (general policy + payment authorization)
 - Additional compliance certifications
 
 ---
