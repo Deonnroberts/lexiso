@@ -55,8 +55,6 @@ if (decision.decision === 'allow') {
 ```
 
 Get your API key at [lexiso.app/setup](https://lexiso.app/setup)
-```
-
 
 ---
 
@@ -155,25 +153,6 @@ It is designed to be:
 - Regulated or compliance-sensitive environments
 
 In all cases, Lexiso ensures that AI financial autonomy operates only within explicitly defined bounds.
-
----
-
-## **Repository Structure**
-```
-lexiso/
-├── README.md              # This file
-├── LICENSE.md             # Source-available license
-├── CONTRIBUTING.md        # Contribution guidelines
-├── docs/                  # Architecture and API reference
-├── open-core/             # Lexiso Open Core
-│   ├── cmd/               # CLI and server entrypoints
-│   ├── internal/          # Core authorization logic
-│   └── configs/           # Example configurations
-├── sdk/                   # Client SDKs
-│   └── javascript/        # npm package
-├── examples/              # Integration examples
-└── demo/                  # Runnable reference demo
-```
 
 ---
 
