@@ -14,9 +14,50 @@ This repository contains the open-core of Lexiso under the Lexiso Source-Availab
 
 ## Quick Start
 
-```
+Install the SDK:
+```bash
 npm install lexiso
-````
+```
+
+Initialize the client:
+```javascript
+const { Lexiso } = require('lexiso');
+
+const client = new Lexiso('sk_live_your_api_key');
+```
+
+Create an agent and authorize a transaction:
+```javascript
+// Register an AI agent
+const agent = await client.createAgent('My AI Assistant', 'openai');
+
+// Create a spending policy
+await client.createPolicy(agent.id, 'Default Policy', {
+  amount_limits: {
+    per_transaction: 100,
+    daily: 500,
+    monthly: 2000
+  },
+  allowed_categories: ['shopping', 'software', 'travel']
+});
+
+// Authorize a payment
+const decision = await client.authorize(agent.id, 49.99, {
+  merchant: 'Amazon',
+  category: 'shopping'
+});
+
+if (decision.decision === 'allow') {
+  console.log('Authorized:', decision.signature);
+} else {
+  console.log('Denied:', decision.reason);
+}
+```
+
+Get your API key at [lexiso.app/setup](https://lexiso.app/setup)
+```
+
+
 ---
 
 ## **The Problem**
